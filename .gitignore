@@ -1,0 +1,13 @@
+!*.c
+!*.h
+MDK_ARM/HT32/*
+MDK_ARMv5/HT32/*
+*.o
+*.uvgui.USER
+24LC256 Data 備份 - 複製.txt
+24LC256 Data 備份.txt
+24LC256 Data 備份-轉換.txt
+HA-29第一次寫入前備份.txt
+new 1.txt
+new 2.txt
+nope++pro

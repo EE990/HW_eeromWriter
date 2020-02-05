@@ -1,0 +1,916 @@
+Dependencies for Project 'Project_52241', Target 'HT32': (DO NOT MODIFY !)
+F (..\main.c)(0x5E3A57F4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\main.o --omf_browse .\ht32\52241\obj\main.crf --depend .\ht32\52241\obj\main.d)
+I (S:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (S:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x564B5782)
+I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
+I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/spi_flash.h)(0x564B5782)
+I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
+F (..\ht32f520xx_01_it.c)(0x5E3A3090)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_01_it.o --omf_browse .\ht32\52241\obj\ht32f520xx_01_it.crf --depend .\ht32\52241\obj\ht32f520xx_01_it.d)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\ht32_board.h)(0x564B5782)
+I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
+I (..\utilities\common/spi_flash.h)(0x564B5782)
+I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
+F (..\ht32f520xx_01_conf.h)(0x5E38D352)()
+F (..\MDK_ARM\ht32_op.s)(0x5653BEB7)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx--pd "__UVISION_VERSION SETA 526" --pd "USE_HT32_CHIP SETA 2"--list .\ht32\52241\list\ht32_op.lst --xref -o .\ht32\52241\obj\ht32_op.o --depend .\ht32\52241\obj\ht32_op.d)
+F (.\HT32F520xx_01_DebugSupport.ini)(0x56D99FBF)()
+F (..\system_ht32f520xx_02.c)(0x57456BE7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\system_ht32f520xx_02.o --omf_browse .\ht32\52241\obj\system_ht32f520xx_02.crf --depend .\ht32\52241\obj\system_ht32f520xx_02.d)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (.\startup_ht32f520xx_01.s)(0x56C1F355)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx--pd "__UVISION_VERSION SETA 526" --pd "USE_HT32_CHIP SETA 2"--list .\ht32\52241\list\startup_ht32f520xx_01.lst --xref -o .\ht32\52241\obj\startup_ht32f520xx_01.o --depend .\ht32\52241\obj\startup_ht32f520xx_01.d)
+F (..\library\HT32F520xx_Driver\src\ht32_cm0plus_misc.c)(0x57B1BC8E)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32_cm0plus_misc.o --omf_browse .\ht32\52241\obj\ht32_cm0plus_misc.crf --depend .\ht32\52241\obj\ht32_cm0plus_misc.d)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\src\ht32_div.c)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\src\ht32_rand.c)(0x57B1BC8E)
+I (S:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_adc.c)(0x57871E22)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_adc.o --omf_browse .\ht32\52241\obj\ht32f520xx_adc.crf --depend .\ht32\52241\obj\ht32f520xx_adc.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_bftm.c)(0x5653BEB7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_bftm.o --omf_browse .\ht32\52241\obj\ht32f520xx_bftm.crf --depend .\ht32\52241\obj\ht32f520xx_bftm.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_ckcu.c)(0x578704C7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_ckcu.o --omf_browse .\ht32\52241\obj\ht32f520xx_ckcu.crf --depend .\ht32\52241\obj\ht32f520xx_ckcu.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_crc.c)(0x5653BEB7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_crc.o --omf_browse .\ht32\52241\obj\ht32f520xx_crc.crf --depend .\ht32\52241\obj\ht32f520xx_crc.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_exti.c)(0x565B302D)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_exti.o --omf_browse .\ht32\52241\obj\ht32f520xx_exti.crf --depend .\ht32\52241\obj\ht32f520xx_exti.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_flash.c)(0x5656C12A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_flash.o --omf_browse .\ht32\52241\obj\ht32f520xx_flash.crf --depend .\ht32\52241\obj\ht32f520xx_flash.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_gpio.c)(0x576224A9)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_gpio.o --omf_browse .\ht32\52241\obj\ht32f520xx_gpio.crf --depend .\ht32\52241\obj\ht32f520xx_gpio.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_i2c.c)(0x5656DA39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_i2c.o --omf_browse .\ht32\52241\obj\ht32f520xx_i2c.crf --depend .\ht32\52241\obj\ht32f520xx_i2c.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_mctm.c)(0x5668588C)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_mctm.o --omf_browse .\ht32\52241\obj\ht32f520xx_mctm.crf --depend .\ht32\52241\obj\ht32f520xx_mctm.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_pwrcu.c)(0x568A1D46)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_pwrcu.o --omf_browse .\ht32\52241\obj\ht32f520xx_pwrcu.crf --depend .\ht32\52241\obj\ht32f520xx_pwrcu.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_rstcu.c)(0x5653BEB7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_rstcu.o --omf_browse .\ht32\52241\obj\ht32f520xx_rstcu.crf --depend .\ht32\52241\obj\ht32f520xx_rstcu.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_rtc.c)(0x5653BEB7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_rtc.o --omf_browse .\ht32\52241\obj\ht32f520xx_rtc.crf --depend .\ht32\52241\obj\ht32f520xx_rtc.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_spi.c)(0x565B302D)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_spi.o --omf_browse .\ht32\52241\obj\ht32f520xx_spi.crf --depend .\ht32\52241\obj\ht32f520xx_spi.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_tm.c)(0x575DF505)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_tm.o --omf_browse .\ht32\52241\obj\ht32f520xx_tm.crf --depend .\ht32\52241\obj\ht32f520xx_tm.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_usart.c)(0x565B316A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_usart.o --omf_browse .\ht32\52241\obj\ht32f520xx_usart.crf --depend .\ht32\52241\obj\ht32f520xx_usart.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32f520xx_wdt.c)(0x565B302D)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_wdt.o --omf_browse .\ht32\52241\obj\ht32f520xx_wdt.crf --depend .\ht32\52241\obj\ht32f520xx_wdt.d)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F520xx_Driver\src\ht32_retarget.c)(0x5764EF82)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32_retarget.o --omf_browse .\ht32\52241\obj\ht32_retarget.crf --depend .\ht32\52241\obj\ht32_retarget.d)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x564B5782)
+I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
+I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/spi_flash.h)(0x564B5782)
+I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
+I (S:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x599EDB3E)
+I (S:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+F (..\library\HT32F520xx_Driver\src\ht32_serial.c)(0x576E6DBB)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32_serial.o --omf_browse .\ht32\52241\obj\ht32_serial.crf --depend .\ht32\52241\obj\ht32_serial.d)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x564B5782)
+I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
+I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/spi_flash.h)(0x564B5782)
+I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
+F (..\utilities\ht32_board.c)(0x566858F7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32_board.o --omf_browse .\ht32\52241\obj\ht32_board.crf --depend .\ht32\52241\obj\ht32_board.d)
+I (..\utilities\HT32_board/ht32f520xx_sk.c)(0x575EB162)
+I (..\utilities\ht32_board.h)(0x564B5782)
+I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/spi_flash.h)(0x564B5782)
+I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
+F (..\utilities\common\i2c_eeprom.c)(0x5D8DCD7C)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\i2c_eeprom.o --omf_browse .\ht32\52241\obj\i2c_eeprom.crf --depend .\ht32\52241\obj\i2c_eeprom.d)
+I (..\utilities\common\i2c_eeprom.h)(0x5E393911)
+I (..\utilities\ht32_board.h)(0x564B5782)
+I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/spi_flash.h)(0x564B5782)
+I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
+F (..\utilities\common\spi_flash.c)(0x564B5782)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\spi_flash.o --omf_browse .\ht32\52241\obj\spi_flash.crf --depend .\ht32\52241\obj\spi_flash.d)
+I (..\utilities\common\spi_flash.h)(0x564B5782)
+I (..\utilities\ht32_board.h)(0x564B5782)
+I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/spi_flash.h)(0x564B5782)
+I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
+F (..\utilities\common\spi_lcd.c)(0x57A976DA)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\spi_lcd.o --omf_browse .\ht32\52241\obj\spi_lcd.crf --depend .\ht32\52241\obj\spi_lcd.d)
+I (..\utilities\common\spi_lcd.h)(0x57B3568F)
+I (..\utilities\ht32_board.h)(0x564B5782)
+I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
+I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
+I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (S:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F520xx\Include\system_ht32f520xx_01.h)(0x564B69CA)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_lib.h)(0x57B1BC8E)
+I (..\library\HT32F520xx_Driver\inc\ht32f52231_41_libcfg.h)(0x56C6B373)
+I (S:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\ht32f520xx_01_conf.h)(0x5E38D352)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_adc.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_bftm.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_ckcu.h)(0x576E0F80)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_crc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_exti.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_flash.h)(0x56C6B373)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_gpio.h)(0x576224A9)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm_type.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_tm.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_i2c.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_mctm.h)(0x5668588C)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_pwrcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rstcu.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_rtc.h)(0x5653BEB7)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_spi.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_usart.h)(0x56E00544)
+I (..\library\HT32F520xx_Driver\inc\ht32f520xx_wdt.h)(0x565B2FB6)
+I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
+I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/spi_flash.h)(0x564B5782)
+I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
+I (..\utilities\common\font.h)(0x56699B9B)
+F (..\readme.txt)(0x56C229AD)()
