@@ -116,11 +116,11 @@ int main(void)
 				I2C_EEPROM_BufferRead((u8 *)READ_BUF_ADDR, I2C_EEPROM_PAGE_SIZE * serial_eerom_wPage, temp_u32_1);
 				if (memcmp((u8 *)serialBuffer, (u8 *)READ_BUF_ADDR, I2C_EEPROM_PAGE_SIZE) != 0)
 				{
-					printf("[Write Failed]\r\n");
+					printf("[Write Failed]:page%d\r\n",serial_eerom_wPage);
 				}
 				else
 				{
-					printf("[Write success]\r\n");
+			printf("[Write success]:page%d\r\n",serial_eerom_wPage);
 				}
 				//printf("\r\t\t\t\t%d%%", (int)((j + 1) * 100)/EEPROM_PAGE_CNT);
 			}

@@ -11,3 +11,36 @@ HA-29第一次寫入前備份.txt
 new 1.txt
 new 2.txt
 nope++pro
+EEPROM/MDK_ARM/HT32/52241/List/HT32.map
+
+EEPROM/MDK_ARM/HT32/52241/Obj/HT32.axf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/HT32.axf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/HT32.build_log.htm
+
+EEPROM/MDK_ARM/HT32/52241/Obj/HT32.hex
+
+EEPROM/MDK_ARM/HT32/52241/Obj/HT32.htm
+
+EEPROM/MDK_ARM/HT32/52241/Obj/Project_52241_HT32.dep
+
+EEPROM/MDK_ARM/HT32/52241/Obj/ht32_board.crf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/ht32_retarget.crf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/ht32_serial.crf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/ht32f520xx_01_it.crf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/i2c_eeprom.crf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/main.crf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/spi_flash.crf
+
+EEPROM/MDK_ARM/HT32/52241/Obj/spi_lcd.crf
+
+sendData.txt
+
+temp.txt

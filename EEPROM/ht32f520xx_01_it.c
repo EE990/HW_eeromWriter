@@ -184,12 +184,14 @@ void UART1_IRQHandler(void)
 		 { 
 			 serial_eerom_wBuffer[serial_eerom_wBuffer_Cnt]=dataTemp;//read in buffer
 				
-			 serial_eerom_wBuffer_Cnt++;
 			 if(serial_eerom_wBuffer_Cnt>=I2C_EEPROM_PAGE_SIZE)
 			 {
-				 //printf("\n [To Long , Outside The Buffer]\n");
+				 printf("\n [Failed]:To Long , Outside The Buffer\n");
+				 serialHeadF=0;
 				 serial_eerom_wBuffer_Cnt=0;
 			 }
+			 
+			 serial_eerom_wBuffer_Cnt++;
 		 }
 	 }
 	

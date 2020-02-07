@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\HT32\52241\Obj\HT32.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\HT32\52241\Obj\HT32.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Wed Feb 05 13:51:49 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Fri Feb 07 17:21:06 2020
 <BR><P>
 <H3>Maximum Stack Usage =        132 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -184,7 +184,7 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 <LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
 </UL>
-<BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
 <P><STRONG><a name="[2b]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
@@ -328,7 +328,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_EEPROM_BufferRead
 </UL>
 
-<P><STRONG><a name="[51]"></a>I2C_ClearFlag</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, ht32f520xx_i2c.o(i.I2C_ClearFlag))
+<P><STRONG><a name="[52]"></a>I2C_ClearFlag</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, ht32f520xx_i2c.o(i.I2C_ClearFlag))
 <BR><BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_I2C_EEPROM_AckPolling
 </UL>
 
@@ -365,7 +365,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_EEPROM_BufferRead
 </UL>
 
-<P><STRONG><a name="[50]"></a>I2C_GetFlagStatus</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, ht32f520xx_i2c.o(i.I2C_GetFlagStatus))
+<P><STRONG><a name="[51]"></a>I2C_GetFlagStatus</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, ht32f520xx_i2c.o(i.I2C_GetFlagStatus))
 <BR><BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_I2C_EEPROM_AckPolling
 </UL>
 
@@ -409,7 +409,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[56]"></a>SERIAL_PutChar</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, ht32_serial.o(i.SERIAL_PutChar))
+<P><STRONG><a name="[57]"></a>SERIAL_PutChar</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, ht32_serial.o(i.SERIAL_PutChar))
 <BR><BR>[Called By]<UL><LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
 </UL>
 
@@ -422,18 +422,19 @@ Global Symbols
 <P><STRONG><a name="[1d]"></a>SystemInit</STRONG> (Thumb, 132 bytes, Stack size 0 bytes, system_ht32f520xx_02.o(i.SystemInit))
 <BR>[Address Reference Count : 1]<UL><LI> startup_ht32f520xx_01.o(RESET)
 </UL>
-<P><STRONG><a name="[1c]"></a>UART1_IRQHandler</STRONG> (Thumb, 282 bytes, Stack size 32 bytes, ht32f520xx_01_it.o(i.UART1_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = UART1_IRQHandler
+<P><STRONG><a name="[1c]"></a>UART1_IRQHandler</STRONG> (Thumb, 296 bytes, Stack size 32 bytes, ht32f520xx_01_it.o(i.UART1_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = UART1_IRQHandler &rArr; __2printf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ReceiveData
-<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
 <LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BFTM_SetCounter
 <LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BFTM_EnaCmd
 <LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BFTM_ClearFlag
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_ht32f520xx_01.o(RESET)
 </UL>
-<P><STRONG><a name="[4f]"></a>USART_GetFlagStatus</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, ht32f520xx_usart.o(i.USART_GetFlagStatus))
+<P><STRONG><a name="[50]"></a>USART_GetFlagStatus</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, ht32f520xx_usart.o(i.USART_GetFlagStatus))
 <BR><BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART1_IRQHandler
 </UL>
 
@@ -446,7 +447,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HT32F_DVB_COMInit
 </UL>
 
-<P><STRONG><a name="[58]"></a>USART_IntConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, ht32f520xx_usart.o(i.USART_IntConfig))
+<P><STRONG><a name="[59]"></a>USART_IntConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, ht32f520xx_usart.o(i.USART_IntConfig))
 <BR><BR>[Called By]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -454,7 +455,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART1_IRQHandler
 </UL>
 
-<P><STRONG><a name="[57]"></a>USART_TXRXTLConfig</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, ht32f520xx_usart.o(i.USART_TXRXTLConfig))
+<P><STRONG><a name="[58]"></a>USART_TXRXTLConfig</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, ht32f520xx_usart.o(i.USART_TXRXTLConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART_TXRXTLConfig
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -468,22 +469,23 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _I2C_EEPROM_AckPolling
 </UL>
 <BR>[Calls]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_TargetAddressConfig
-<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_GetFlagStatus
-<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_ClearFlag
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_GetFlagStatus
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_ClearFlag
 </UL>
 <BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_EEPROM_BufferRead
 </UL>
 
-<P><STRONG><a name="[52]"></a>__0printf$8</STRONG> (Thumb, 24 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<P><STRONG><a name="[53]"></a>__0printf$8</STRONG> (Thumb, 24 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
 <P><STRONG><a name="[66]"></a>__1printf$8</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
 
-<P><STRONG><a name="[59]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8))
+<P><STRONG><a name="[4f]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_EEROM_data
+<BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART1_IRQHandler
+<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_EEROM_data
 <LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -502,15 +504,15 @@ Global Symbols
 <P><STRONG><a name="[20]"></a>fputc</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, ht32_retarget.o(i.fputc))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = fputc
 </UL>
-<BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SERIAL_PutChar
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SERIAL_PutChar
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> printf8.o(i.__0printf$8)
 </UL>
 <P><STRONG><a name="[1f]"></a>main</STRONG> (Thumb, 266 bytes, Stack size 16 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 132<LI>Call Chain = main &rArr; I2C_EEPROM_Init &rArr; I2C_Init &rArr; CKCU_GetPeripFrequency &rArr; CKCU_GetClocksFrequency &rArr; CKCU_GetPLLFrequency &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_TXRXTLConfig
-<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_IntConfig
+<BR>[Calls]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_TXRXTLConfig
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_IntConfig
 <LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RETARGET_Configuration
 <LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_EEPROM_Init
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Cmd
@@ -520,7 +522,7 @@ Global Symbols
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_EEROM_data
 <LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CKCU_Configuration
 <LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BFTM_Configuration
-<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
@@ -528,7 +530,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = print_EEROM_data &rArr; I2C_EEPROM_BufferRead &rArr; _I2C_EEPROM_AckPolling
 </UL>
 <BR>[Calls]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_EEPROM_BufferRead
-<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -536,20 +538,20 @@ Global Symbols
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[53]"></a>_printf_core</STRONG> (Thumb, 1020 bytes, Stack size 104 bytes, printf8.o(i._printf_core), UNUSED)
+<P><STRONG><a name="[54]"></a>_printf_core</STRONG> (Thumb, 1020 bytes, Stack size 104 bytes, printf8.o(i._printf_core), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
-<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
-<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
 </UL>
-<BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf$8
-</UL>
-
-<P><STRONG><a name="[55]"></a>_printf_post_padding</STRONG> (Thumb, 32 bytes, Stack size 24 bytes, printf8.o(i._printf_post_padding), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf$8
 </UL>
 
-<P><STRONG><a name="[54]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 40 bytes, printf8.o(i._printf_pre_padding), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<P><STRONG><a name="[56]"></a>_printf_post_padding</STRONG> (Thumb, 32 bytes, Stack size 24 bytes, printf8.o(i._printf_post_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[55]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 40 bytes, printf8.o(i._printf_pre_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 <P>
 <H3>

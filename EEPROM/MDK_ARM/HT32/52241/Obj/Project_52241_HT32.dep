@@ -1,5 +1,5 @@
 Dependencies for Project 'Project_52241', Target 'HT32': (DO NOT MODIFY !)
-F (..\main.c)(0x5E3A57F4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\main.o --omf_browse .\ht32\52241\obj\main.crf --depend .\ht32\52241\obj\main.d)
+F (..\main.c)(0x5E3D246C)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\main.o --omf_browse .\ht32\52241\obj\main.crf --depend .\ht32\52241\obj\main.d)
 I (S:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (S:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
@@ -36,10 +36,10 @@ I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
 I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
 I (..\utilities\ht32_board.h)(0x564B5782)
 I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
-I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\common/spi_flash.h)(0x564B5782)
 I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
-F (..\ht32f520xx_01_it.c)(0x5E3A3090)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_01_it.o --omf_browse .\ht32\52241\obj\ht32f520xx_01_it.crf --depend .\ht32\52241\obj\ht32f520xx_01_it.d)
+F (..\ht32f520xx_01_it.c)(0x5E3D2C01)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32f520xx_01_it.o --omf_browse .\ht32\52241\obj\ht32f520xx_01_it.crf --depend .\ht32\52241\obj\ht32f520xx_01_it.d)
 I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
 I (..\library\Device\Holtek\HT32F520xx\Include\ht32f520xx_01.h)(0x5724B8CD)
 I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
@@ -72,7 +72,7 @@ I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
 I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
 I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
 I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
-I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\ht32_board.h)(0x564B5782)
 I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
 I (..\utilities\common/spi_flash.h)(0x564B5782)
@@ -713,7 +713,7 @@ I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
 I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
 I (..\utilities\ht32_board.h)(0x564B5782)
 I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
-I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\common/spi_flash.h)(0x564B5782)
 I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
 I (S:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x599EDB3E)
@@ -753,7 +753,7 @@ I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
 I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
 I (..\utilities\ht32_board.h)(0x564B5782)
 I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
-I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\common/spi_flash.h)(0x564B5782)
 I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
 F (..\utilities\ht32_board.c)(0x566858F7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\ht32_board.o --omf_browse .\ht32\52241\obj\ht32_board.crf --depend .\ht32\52241\obj\ht32_board.d)
@@ -792,11 +792,11 @@ I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
 I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
 I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
 I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
-I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\common/spi_flash.h)(0x564B5782)
 I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
 F (..\utilities\common\i2c_eeprom.c)(0x5D8DCD7C)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\i2c_eeprom.o --omf_browse .\ht32\52241\obj\i2c_eeprom.crf --depend .\ht32\52241\obj\i2c_eeprom.d)
-I (..\utilities\common\i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common\i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\ht32_board.h)(0x564B5782)
 I (..\utilities\HT32_board/ht32f52241_sk.h)(0x5D8DA6A5)
 I (..\library\HT32F520xx_Driver\inc\ht32.h)(0x5653BEB7)
@@ -831,7 +831,7 @@ I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
 I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
 I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
 I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
-I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\common/spi_flash.h)(0x564B5782)
 I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
 F (..\utilities\common\spi_flash.c)(0x564B5782)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\spi_flash.o --omf_browse .\ht32\52241\obj\spi_flash.crf --depend .\ht32\52241\obj\spi_flash.d)
@@ -870,7 +870,7 @@ I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
 I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
 I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
 I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
-I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\common/spi_flash.h)(0x564B5782)
 I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
 F (..\utilities\common\spi_lcd.c)(0x57A976DA)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F520xx\Include -I ..\library\HT32F520xx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities-IS:\Keil_v5\ARM\RV31\INC-IS:\Keil_v5\ARM\CMSIS\Include-IS:\Keil_v5\ARM\INC\Holtek\HT32F520xx-D__UVISION_VERSION="526" -DUSE_HT32_DRIVER -DUSE_HT32F52241_SK -DUSE_HT32F52231_41-o .\ht32\52241\obj\spi_lcd.o --omf_browse .\ht32\52241\obj\spi_lcd.crf --depend .\ht32\52241\obj\spi_lcd.d)
@@ -909,7 +909,7 @@ I (..\library\HT32F520xx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
 I (..\library\HT32F520xx_Driver\inc\ht32_serial.h)(0x5759A844)
 I (..\library\HT32F520xx_Driver\inc\ht32_div.h)(0x56C22A05)
 I (..\library\HT32F520xx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
-I (..\utilities\common/i2c_eeprom.h)(0x5E393911)
+I (..\utilities\common/i2c_eeprom.h)(0x5E3B6854)
 I (..\utilities\common/spi_flash.h)(0x564B5782)
 I (..\utilities\common/ebi_lcd.h)(0x564C92AD)
 I (..\utilities\common\font.h)(0x56699B9B)
