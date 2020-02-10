@@ -142,10 +142,6 @@ int main(void)
 				printf("[Failed]:page out the range,MAX Page=%d\r\n",EEPROM_PAGE_MAX-1);
 			}
 			#endif
-			
-			//stop BFTM 
-			BFTM_ClearFlag(HT_BFTM0);
-			BFTM_EnaCmd(HT_BFTM0, DISABLE);
 		}
 		if(serial_eerom_rPageStart!=0 && serial_eerom_rPageEnd!=0)//read
 		{
@@ -181,6 +177,10 @@ int main(void)
 		}			
 		
 		NVIC_EnableIRQ(COM1_IRQn);
+		
+		//stop BFTM 
+		BFTM_ClearFlag(HT_BFTM0);
+		BFTM_EnaCmd(HT_BFTM0, DISABLE);
 	}
 }
 
