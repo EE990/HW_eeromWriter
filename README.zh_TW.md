@@ -1,4 +1,5 @@
 # 精簡型eeprom讀寫工具
+[ English ](https://github.com/EE990/HW_eeromWriter/README.md) | 繁體中文
   - 使用MCU : ht32f1755
   - 腳位定義:
     * I2C_SCL - pb15
