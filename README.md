@@ -1,5 +1,5 @@
 # Lite eeprom read/write tool
-  English | [ 繁體中文 ](https://github.com/EE990/HW_eeromWriter/README.zh_TW.md)
+  English | [ 繁體中文 ](https://github.com/EE990/HW_eeromWriter/blob/master/README.zh_TW.md)
   - MCU : ht32f1755
   - pin:
     * I2C_SCL - pb15
