@@ -6,6 +6,12 @@
     * I2C_SDA - pc0
     * COM_TX  - pa4
     * COM_RX  - pa5
+  - USART config
+    * baudrate: 115200
+    * parity bits: none
+    * data bits: 8
+    * stop bits: 1
+    * flow ctrl: null
 ### usart command
 Write:<br>
 
