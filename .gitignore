@@ -41,6 +41,8 @@ EEPROM/MDK_ARM/HT32/52241/Obj/spi_flash.crf
 
 EEPROM/MDK_ARM/HT32/52241/Obj/spi_lcd.crf
 
+EEPROM/MDK_ARM/HT32/*
+
 sendData.txt
 
 temp.txt

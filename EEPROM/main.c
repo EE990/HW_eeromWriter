@@ -145,7 +145,7 @@ int main(void)
 		}
 		if(serial_eerom_rPageStart!=0 && serial_eerom_rPageEnd!=0)//read
 		{
-			//if(serial_eerom_rPageStart<EEPROM_PAGE_MAX && serial_eerom_rPageEnd<EEPROM_PAGE_MAX)
+			if(serial_eerom_rPageStart<EEPROM_PAGE_MAX && serial_eerom_rPageEnd<EEPROM_PAGE_MAX)
 			{
 				serial_eerom_rPageStart--;//restitute
 				serial_eerom_rPageEnd--;//restitute
@@ -168,10 +168,10 @@ int main(void)
 				}
 				printf("\r\n[Read success]\r\n");
 			}
-			/*else 
+			else 
 			{
 				printf("[Read Failed]:page outside the range\r\n");
-			}*/
+			}
 				
 			serial_eerom_rPageStart=serial_eerom_rPageEnd=0;
 		}			
